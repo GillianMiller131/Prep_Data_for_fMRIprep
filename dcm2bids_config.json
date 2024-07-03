@@ -1,0 +1,329 @@
+{
+  "descriptions": [
+    {
+      "datatype": "anat",
+      "suffix": "T2w",
+      "criteria": {
+        "SeriesDescription": "anat-T2w_acq-space_sag"
+      }
+    },
+    {
+        "datatype": "anat",
+        "suffix": "T1w",
+        "criteria": {
+          "SeriesDescription": "anat-T1w_acq-mprage_sag"
+        }
+      },
+    {
+      "id": "rest1",
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-rest1",
+      "criteria": {
+        "ProtocolName": "func-bold_task-rest1"
+      }
+    },
+    {
+        "id": "rest2",
+        "datatype": "func",
+        "suffix": "bold",
+        "custom_entities": "task-rest2",
+        "criteria": {
+          "ProtocolName": "func-bold_task-rest2"
+        }
+      },
+      {
+        "id": "rest3",
+        "datatype": "func",
+        "suffix": "bold",
+        "custom_entities": "task-rest3",
+        "criteria": {
+          "ProtocolName": "func-bold_task-rest3"
+        }
+      },
+      {
+        "id": "rest4",
+        "datatype": "func",
+        "suffix": "bold",
+        "custom_entities": "task-rest4",
+        "criteria": {
+          "ProtocolName": "func-bold_task-rest4"
+        }
+      },
+    {
+      "id": "face1",
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-face1",
+      "criteria": {
+        "SeriesDescription": "func-bold_task-face1"
+      }
+    },
+    {
+        "id": "face2",
+        "datatype": "func",
+        "suffix": "bold",
+        "custom_entities": "task-face2",
+        "criteria": {
+          "SeriesDescription": "func-bold_task-face2"
+        }
+      },
+      {
+        "id": "face3",
+        "datatype": "func",
+        "suffix": "bold",
+        "custom_entities": "task-face3",
+        "criteria": {
+          "SeriesDescription": "func-bold_task-face3"
+        }
+      },
+      {
+        "id": "face4",
+        "datatype": "func",
+        "suffix": "bold",
+        "custom_entities": "task-face4",
+        "criteria": {
+          "SeriesDescription": "func-bold_task-face4"
+        }
+      },
+      {
+        "id": "movie1",
+        "datatype": "func",
+        "suffix": "bold",
+        "custom_entities": "task-movie1cloudy",
+        "criteria": {
+          "SeriesDescription": "func-bold_task-movie1cloudy"
+        }
+      },
+      {
+        "id": "movie2",
+        "datatype": "func",
+        "suffix": "bold",
+        "custom_entities": "task-movie2inscapes",
+        "criteria": {
+          "SeriesDescription": "func-bold_task-movie2inscapes"
+        }
+      },
+      {
+        "datatype": "fmap",
+        "suffix": "epi",
+        "custom_entities": "dir-AP",
+        "criteria": {
+          "SeriesDescription": "fmap-epi_acq-opphase_dir-AP*face1"
+      },
+        "sidecar_changes": {
+        "IntendedFor": "face1"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-PA",
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-PA*face1"
+      },
+      "sidecar_changes": {
+        "IntendedFor": "face1"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-AP",
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-AP*face2"
+      },
+      "sidecar_changes": {
+        "IntendedFor": "face2"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-PA", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-PA*face2"
+      },
+      "sidecar_changes": {
+        "IntendedFor": "face2"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-AP", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-AP*face3"
+      },
+      "sidecar_changes": {
+          "IntendedFor": "face3"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-PA",
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-PA*face3"
+      },
+      "sidecar_changes": {
+          "IntendedFor": "face3"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-AP", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-AP*face4"
+      },
+      "sidecar_changes": {
+          "IntendedFor": "face4"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-PA",
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-PA*face4"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "face4"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-AP", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-AP*rest1"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "rest1"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-PA",
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-PA*rest1"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "rest1"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-AP", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-AP*rest2"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "rest2"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-PA",
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-PA*rest2"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "rest2"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-AP", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-AP*rest3"
+           },
+        "sidecar_changes": {
+          "IntendedFor": "rest3"
+      }   
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-PA", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-PA*rest3"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "rest3"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-AP", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-AP*rest4"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "rest4"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-PA", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-PA*rest4"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "rest4"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-AP", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-AP*movie1"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "movie1"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-PA",
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-PA*movie1"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "movie1"
+      }
+    },
+    {
+       "datatype": "fmap",
+       "suffix": "epi",
+       "custom_entities": "dir-AP", 
+       "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-AP*movie2"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "movie2"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "epi",
+      "custom_entities": "dir-PA", 
+      "criteria": {
+        "SeriesDescription": "fmap-epi_acq-opphase_dir-PA*movie2"
+      },
+        "sidecar_changes": {
+          "IntendedFor": "movie2"
+      }
+    }
+
+  ]
+}
