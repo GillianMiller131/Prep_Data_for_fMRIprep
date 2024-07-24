@@ -5,8 +5,9 @@
 #PA = j
 
 bids_dir=$1
+subnum=$2
 
-for file in "$bids_dir"/sub-P*/fmap/*.json; do
+for file in "$bids_dir"/sub-P"$subnum"/fmap/*.json; do
     folder=$(dirname "$file")
     subject_number=$(basename "$folder" | grep -oP '(sub-P)\d+')
     
